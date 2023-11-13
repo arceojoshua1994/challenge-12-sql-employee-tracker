@@ -1,55 +1,33 @@
 # Employee Tracker
 
-An efficient command-line application to manage a company's employee database using Node.js, Inquirer, and MySQL.
-
-## Table of Contents
-
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Bonus Features](#bonus-features)
-- [Demo](#demo)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Description
+This project allows users to manage a employee database to check employees, departments, and more. 
 
-Employee Tracker is designed for business owners who want a simplified interface to view and manage their departments, roles, and employees. With easy-to-navigate command-line prompts, users can organize and plan their business more effectively.
 
-## Installation
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Video Walkthrough](#video-walkthrough)
 
-1. Install the necessary packages.
 
-2. Set up the database using your preferred MySQL management tool. Navigate to the db folder and execute the schema.sql file. Optionally, to populate the database with sample data, execute the seeds.sql file as well.
+## Installation 
+You will need to have Node.js installed on your machine. You can check if you have it installed by typing "node -v" in your command line. If you do not have Node, you may install it here [Node.js website](https://nodejs.org/en) 
 
-3. Update the connection.js file with your MySQL credentials.
+You need to install  (console-table-printer, dotenv, inquirer, and mysql2.)
 
-## Usage
 
-1. Start the application.
+## Usage 
 
-2. Navigate through the options provided in the command-line interface. Choose the desired action and follow the prompts.
-
-## Features
-
-- View all departments with their respective IDs.
-- View all roles displaying the title, role ID, associated department, and salary.
-- View all employees, including their data, role, department, and reporting manager.
-- Add new departments, roles, and employees.
-- Update an employee's role.
-
-## Bonus Features (Future Developments)
-
-- Update an employee's manager.
-- View employees by manager or department.
-- Delete departments, roles, or employees.
-- Calculate and view the total utilized budget of a department based on employee salaries.
-
-## Demo
-
-For a complete walkthrough of the application's functionality, click here to view the demonstration video. 
+Open your terminal, type (node index.js), then you will need to answer the prompted questions.
+ 
 
 ## License
 
-This project is licensed under the MIT License.
+[MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
+
+
+# Video Walkthrough
+
+[Video Demonstration](https://watch.screencastify.com/v/Y0Uqp9gD5v5QwtlO3PIH)
